@@ -8,7 +8,7 @@ public class ApplicationInfo {
   public final String author = "rlopezb@gmail.com";
   public final String github = "https://github.com/rlopezb";
   public final Date compiled;
-  public final String version = "0.0.2-SNAPSHOT";
+  public final String version = "0.0.3-SNAPSHOT";
   public final Date now = new Date();
 
   public ApplicationInfo() {
