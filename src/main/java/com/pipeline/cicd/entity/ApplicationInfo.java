@@ -8,12 +8,12 @@ public class ApplicationInfo {
   public final String author = "rlopezb@gmail.com";
   public final String github = "https://github.com/rlopezb";
   public final Date compiled;
-  public final String version = "0.0.2-SNAPSHOT";
+  public final String version = "0.0.3-SNAPSHOT";
   public final Date now = new Date();
 
   public ApplicationInfo() {
     Calendar calendar = Calendar.getInstance();
-    calendar.set(2023, Calendar.JULY, 14, 19, 28,0);
+    calendar.set(2023, Calendar.JULY, 14, 19, 44,0);
     calendar.set(Calendar.MILLISECOND, 0);
     compiled = calendar.getTime();
   }
