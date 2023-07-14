@@ -14,6 +14,7 @@ public class ApplicationInfo {
   public ApplicationInfo() {
     Calendar calendar = Calendar.getInstance();
     calendar.set(2023, Calendar.JULY, 14, 19, 28,0);
+    calendar.set(Calendar.MILLISECOND, 0);
     compiled = calendar.getTime();
   }
 
